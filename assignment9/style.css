@@ -1,0 +1,174 @@
+* {
+  padding: 0;
+  margin: 0;
+  scroll-behavior: smooth;
+}
+
+.parent {
+  display: flex;
+}
+
+.sidebar {
+  width: 20%;
+  background-color: darkred;
+  display: inline-block;
+  vertical-align: top;
+  text-align: center;
+}
+
+.sidebar a {
+  display: block;
+  text-decoration: none;
+  margin-top: 30px;
+  color: aliceblue;
+
+}
+
+.sidebar img {
+
+  width: 200px;
+  height: 200px;
+  margin-top: 70%;
+  border-radius: 50%;
+  border: 9px solid rgb(243, 99, 99);
+}
+
+.sidebar a:hover {
+
+  color: rgb(0, 0, 0);
+
+}
+
+
+.main {
+  width: 80%;
+  background-color: rgba(169, 169, 169, 0.596);
+  display: inline-block;
+  overflow: auto;
+}
+
+h1 {
+  padding: 40px;
+  margin: 30px;
+  color: darkred;
+  display: inline-block;
+  font-size: 40px;
+  text-align: center;
+  border-style: groove;
+}
+
+.yes {
+  color: rgba(0, 0, 0, 0.493);
+  padding: 20px;
+  font-size: 22px;
+}
+
+.yes a {
+  text-decoration: none;
+}
+
+
+.yes em {
+  color: darkred;
+}
+
+p {
+  padding: 10px;
+  color: rgba(0, 0, 0, 0.767);
+  background-color: rgba(226, 140, 140, 0.849);
+}
+
+.icons a {
+  text-decoration: none;
+  color: white;
+  text-align: center;
+  margin-top: 50px;
+  display: inline-block;
+}
+
+.fonts {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  font-size: 20px;
+  background-color: rgb(238, 53, 53);
+  display: inline-block;
+  margin-top: 50px;
+  text-align: left;
+  line-height: 50px;
+
+}
+
+.fonts:hover {
+  background-color: darkred;
+  cursor: pointer;
+  display: inline-block;
+  margin-top: 50px;
+  text-align: center;
+
+}
+
+.icons {
+  padding: 0 40px;
+  display: flex;
+  gap: 15px;
+  margin: auto;
+
+}
+
+.custom-line {
+  border: none;
+  height: 4px;
+  background-color: rgba(0, 0, 0, 0.342);
+  width: 100%;
+  margin: 50px 0;
+  text-align: center;
+}
+
+h2 {
+  color: darkred;
+  display: inline-block;
+  text-align: center;
+  font-size: 50px;
+}
+
+dd {
+
+  color: rgb(0, 0, 0);
+  padding: 10px;
+}
+
+dt {
+  color: black;
+  font-size: 35px;
+  padding: 10px;
+}
+
+h6 {
+  color: darkred;
+  text-align: right;
+  font-size: 20px;
+}
+
+h4 {
+  color: darkred;
+  padding: 10px;
+}
+
+li {
+  color: rgba(0, 0, 0, 0.808);
+  padding: 10px;
+
+}
+
+em {
+
+  color: darkred;
+  font-size: 50px;
+  padding: 10px;
+}
+
+
+.cv-cnt {
+  padding: 0 40px;
+}
